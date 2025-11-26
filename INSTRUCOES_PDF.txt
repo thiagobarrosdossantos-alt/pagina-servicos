@@ -1,0 +1,36 @@
+
+INSTRUÇÕES PARA CONVERTER O GUIA EM PDF
+========================================
+
+Arquivo HTML: /home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html
+Arquivo PDF desejado: /home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf
+
+MÉTODO RECOMENDADO: USAR O NAVEGADOR
+-------------------------------------
+1. Clique duas vezes em "GUIA_COMPLETO_A_COLMEIA.html" para abrir no navegador
+2. Pressione Ctrl+P (Windows/Linux) ou Cmd+P (Mac)
+3. Em "Destino" ou "Impressora", selecione "Salvar como PDF"
+4. Configure:
+   ✓ Margens: Padrão
+   ✓ Orientação: Retrato
+   ✓ Incluir gráficos de plano de fundo: SIM (importante!)
+5. Clique em "Salvar" e escolha onde salvar o PDF
+
+ALTERNATIVA: CHROME HEADLESS
+-----------------------------
+Execute no terminal (Windows/Linux):
+google-chrome --headless --disable-gpu --print-to-pdf="/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf" "/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html"
+
+Execute no terminal (Mac):
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --disable-gpu --print-to-pdf="/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf" "/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html"
+
+ALTERNATIVA: CONVERSORES ONLINE
+--------------------------------
+1. Acesse https://www.html2pdf.com/
+2. Faça upload do arquivo GUIA_COMPLETO_A_COLMEIA.html
+3. Clique em "Convert"
+4. Baixe o PDF gerado
+
+═══════════════════════════════════════════════════════
+O PDF final terá aproximadamente 50-60 páginas
+═══════════════════════════════════════════════════════
