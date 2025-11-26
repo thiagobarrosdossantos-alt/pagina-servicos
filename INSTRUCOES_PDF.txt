@@ -2,8 +2,8 @@
 INSTRUÇÕES PARA CONVERTER O GUIA EM PDF
 ========================================
 
-Arquivo HTML: /home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html
-Arquivo PDF desejado: /home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf
+Arquivo HTML: /workspaces/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html
+Arquivo PDF desejado: /workspaces/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf
 
 MÉTODO RECOMENDADO: USAR O NAVEGADOR
 -------------------------------------
@@ -19,10 +19,10 @@ MÉTODO RECOMENDADO: USAR O NAVEGADOR
 ALTERNATIVA: CHROME HEADLESS
 -----------------------------
 Execute no terminal (Windows/Linux):
-google-chrome --headless --disable-gpu --print-to-pdf="/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf" "/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html"
+google-chrome --headless --disable-gpu --print-to-pdf="/workspaces/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf" "/workspaces/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html"
 
 Execute no terminal (Mac):
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --disable-gpu --print-to-pdf="/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf" "/home/user/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html"
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --disable-gpu --print-to-pdf="/workspaces/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.pdf" "/workspaces/pagina-servicos/GUIA_COMPLETO_A_COLMEIA.html"
 
 ALTERNATIVA: CONVERSORES ONLINE
 --------------------------------
